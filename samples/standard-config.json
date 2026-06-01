@@ -1,0 +1,42 @@
+﻿{
+  "schemaVersion": "1.0.0",
+  "project": {
+    "name": "电商管理系统",
+    "description": "支持商品、订单、用户与权限管理的后台平台",
+    "type": "后台管理系统",
+    "language": "TypeScript"
+  },
+  "frontend": {
+    "framework": "Vue3",
+    "ui": ["Element Plus"],
+    "build": "Vite",
+    "state": ["Pinia"],
+    "request": ["Axios"],
+    "extra": ["TypeScript", "国际化"]
+  },
+  "backend": {
+    "language": "Java",
+    "framework": "SpringBoot",
+    "api": "RESTful",
+    "auth": ["JWT"],
+    "doc": ["Swagger/OpenAPI"]
+  },
+  "dataLayer": {
+    "database": "MySQL",
+    "cache": ["Redis"],
+    "search": ["Elasticsearch"]
+  },
+  "ops": {
+    "deployBase": ["Docker", "Nginx"],
+    "cloud": ["阿里云"],
+    "environment": ["Dev", "Test", "Prod"]
+  },
+  "architecture": {
+    "mode": "前后端分离",
+    "pattern": ["MVC"]
+  },
+  "output": {
+    "summary": "项目名称：电商管理系统",
+    "prompt": "请根据以下技术方案生成完整项目"
+  }
+}
